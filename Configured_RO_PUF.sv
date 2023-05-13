@@ -38,10 +38,6 @@ module Configured_RO_PUF(
     wire [15:0] display_out ;
     
     assign en_check = en;
-//    assign RO_out[0] = clk;
-//    assign RO_out[1] = clk;
-//    assign RO_out[2] = clk;
-//    assign RO_out[3] = clk;
     
     // 4 PUFs
     Ring_Oscillator My_RO1(
